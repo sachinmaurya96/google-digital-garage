@@ -18,7 +18,7 @@ i{
 }
 .wrapper{
     background: #fff;
-    position: sticky;
+    position: fixed;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
@@ -477,6 +477,9 @@ nav .content .links{
         width: 100% - 50px;
         margin: 0 auto;
     }
+    .main-wrapper .container{
+        margin-top: 50px;
+    }
     .main-wrapper .main-content{
         padding: 0 8px;
     }
@@ -497,6 +500,7 @@ nav .content .links{
     }
     .main-wrapper .container{
         grid-template-columns: 100%;
+        margin-top: 100px;
     }
     .main-wrapper .main-content{
         padding: 0 10px;
@@ -538,6 +542,7 @@ nav .content .links{
     }
     .main-wrapper .container{
         grid-template-columns: 100%;
+        margin-top: 50px;
     }
     .main-wrapper .main-content{
         padding: 0 ;
