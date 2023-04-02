@@ -466,3 +466,177 @@ nav .content .links{
         padding: 0;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .container{
+        width: 100% - 50px;
+        margin: 0 auto;
+    }
+    .main-wrapper .main-content{
+        padding: 0 8px;
+    }
+    .courses .cards{
+        padding: 0 8px;
+    }
+    .courses .cards .card i{
+        margin-top: 20px;
+    }
+    .faqs .accordians{
+        width: 70%;
+    }
+}
+@media(min-width: 426px) and (max-width: 1023px) {
+    .container{
+        width: 100% - 20px;
+        margin: 0 auto;
+    }
+    .main-wrapper .container{
+        grid-template-columns: 100%;
+    }
+    .main-wrapper .main-content{
+        padding: 0 10px;
+    }
+    .webinars .container{
+        grid-template-columns: 100%;
+    }
+    .webinars .btn{
+        margin-top: 30px;
+    }
+    .courses .cards{
+        grid-template-columns: repeat(2 , 1fr);
+        place-items: center;
+        padding: 0;
+    }
+    .courses .cards .card:nth-child(3){
+        grid-column: 1 / span 2;
+    }
+    .grow .container{
+        grid-template-columns: 100%;
+    }
+    .grow .container h2{
+        margin-bottom: 30px;
+    }
+    .faqs .accordians{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media  (min-width: 0px ) and (max-width: 426px) {
+    *{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .main-wrapper .container{
+        grid-template-columns: 100%;
+    }
+    .main-wrapper .main-content{
+        padding: 0 ;
+    }
+    .main-wrapper .main-content h1{
+        font-size: 35px;
+    }
+    .webinars{
+        margin-top: 50px;
+    }
+    .webinars .container{
+        grid-template-columns: 100%;
+        box-sizing: border-box;
+       margin-top: 30px;
+        padding: 0%;
+    }
+    .webinars .btn{
+        margin-top: 30px;
+    }
+    .courses{
+        padding: 50px 0;
+    }
+    .courses .cards{
+        grid-template-columns:100%;
+        margin: 50px 0;
+        padding: 0;
+    }
+    .courses .courses-content h1{
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .grow .container{
+        grid-template-columns: 100%;
+    }
+    .grow .container h2{
+        margin-bottom: 30px;
+    }
+    .faqs .container{
+        padding: 50px 0;
+    }
+    .faqs h1{
+        font-size: 30px;
+    }
+    .faqs .accordians{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .webinars .webinar-content{
+        flex-direction: column;
+        gap: 0;
+       padding: 10px;
+    }
+    .webinars .btn{
+        width: 100%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    }
+    .webinars i{
+        margin: 30px 0;
+    }
+    .webinars button{
+        width: 100%;
+    }
+    .companies img:nth-child(1){
+        height: 20px;
+        width: auto;
+      
+      }
+      .companies img:nth-child(2){
+          height: 30px;
+          width: auto;
+        }
+        .companies img:nth-child(3){
+          height: 30px;
+          width: auto;
+        
+        }
+        .companies img:nth-child(4){
+          height: 20px;
+          width: auto;
+        
+        }
+        .companies{
+            overflow-x: hidden;
+        }
+        .companies img:nth-child(5){
+          height: 8px;
+          width: auto;
+        
+        }
+        .accordion {
+            font-size: 15px;
+        }
+        .grow {
+           padding: 0;
+        }
+        footer .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        footer h1{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+}
