@@ -6,6 +6,12 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+button{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
 .container{
     width: calc(100% - 150px);
     margin: 0 auto;
@@ -557,7 +563,7 @@ nav .content .links{
     .courses .cards{
         grid-template-columns:100%;
         margin: 50px 0;
-        padding: 0;
+        padding: 10px 10px;
     }
     .courses .courses-content h1{
         font-weight: 400;
